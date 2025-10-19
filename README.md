@@ -30,8 +30,14 @@ task's circuit matches this but replaces two single-qubit gates with **U3(θ, φ
 
 1. **U3 gate definition:**
 
-   U3(θ, φ, λ) = [[cos(θ/2), −e^{iλ}·sin(θ/2)],
-                  [e^{iφ}·sin(θ/2), e^{i(φ+λ)}·cos(θ/2)]]
+   $$
+   U3(θ, φ, λ) =
+   \begin{pmatrix}
+   \cos(θ/2) & -e^{iλ}\sin(θ/2) \\
+   e^{iφ}\sin(θ/2) & e^{i(φ+λ)}\cos(θ/2)
+   \end{pmatrix}
+   $$
+
 
 2. **Known mappings:**
 
