@@ -62,9 +62,9 @@ task's circuit matches this but replaces two single-qubit gates with **U3(θ, φ
 | U3₁  | Hadamard | π/2 | 0 | π    | first “?” on q₂  |
 | U3₂  | T-dagger | 0   | 0 | −π/4 | second “?” on q₂ |
 
-[
+$$
 U3_1 = U3(\tfrac{π}{2}, 0, π), \quad U3_2 = U3(0, 0, -\tfrac{π}{4})
-]
+$$
 
 ---
 
@@ -133,10 +133,10 @@ By identifying:
 the circuit becomes fully equivalent to the Toffoli (CCX).
 Both **matrix** and **truth-table** verification confirm this equivalence.
 
-[
+$$
 \boxed{
 U3_1 = U3(\tfrac{π}{2}, 0, π), \quad U3_2 = U3(0, 0, -\tfrac{π}{4})
 }
-]
+$$
 
 ---
